@@ -1,5 +1,3 @@
-# Call-of-Duty-Black-Ops-III-Cheat
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/tomLadder/Call-of-Duty-Black-Ops-III-Cheat/master/img/icon.png" alt="Slate: API Documentation Generator" width="150">
 </p>
