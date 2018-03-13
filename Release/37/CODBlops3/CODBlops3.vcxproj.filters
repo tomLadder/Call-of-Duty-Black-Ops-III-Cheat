@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\GameEngine">
+      <UniqueIdentifier>{b7102d85-680a-4966-8577-38057928b8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Math">
+      <UniqueIdentifier>{edc3c8c0-2d3e-4548-b3ed-bd2f1088d4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GameEngine">
+      <UniqueIdentifier>{0c553f0c-8a27-4f95-9339-8cf186c6f8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Math">
+      <UniqueIdentifier>{3987cc86-8831-448f-a52d-4cb1f76f7199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Render">
+      <UniqueIdentifier>{1118e8c9-3ed4-4771-b1cc-c9bce5621b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Render">
+      <UniqueIdentifier>{a94873b9-50d3-4a9c-8293-b3653ece9666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\ConsoleUI">
+      <UniqueIdentifier>{8fcb1ae9-f6e6-4968-8bd9-41c33c86ce3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\ConsoleUI">
+      <UniqueIdentifier>{5c2c52df-447c-4002-bb65-d1d3e5d77db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\ConsoleUI\Commands">
+      <UniqueIdentifier>{2642dc19-01bc-4608-8e09-9e914d359eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\ConsoleUI\Commands">
+      <UniqueIdentifier>{f00d092f-5e4b-4a96-bb83-bf504ea310f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Render\Color">
+      <UniqueIdentifier>{e621ae8d-3d52-461f-a3af-8061662876a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Render\Color">
+      <UniqueIdentifier>{f6692e6f-b625-45ec-844b-d76ce37164da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Others">
+      <UniqueIdentifier>{561c1bbf-4f52-4f63-99aa-d1171613c7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Features">
+      <UniqueIdentifier>{595e6b28-c0a8-431f-add5-fe2261a11e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Features\Visuals">
+      <UniqueIdentifier>{bc41e155-d1e2-4225-adef-34c5a1437747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Features">
+      <UniqueIdentifier>{83c40850-0ed0-4e5c-bf4c-70713c520bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Features\Visuals">
+      <UniqueIdentifier>{1923e894-761d-47f0-bb31-da81e10054ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Features\Visuals\Esp">
+      <UniqueIdentifier>{24228ee1-5c42-40c4-9fb2-8ae0d41ae7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Features\Visuals\Esp">
+      <UniqueIdentifier>{d7c6a16d-f144-48b4-9ba1-4d7765d9d86d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="BO3Engine.cpp">
+      <Filter>Quelldateien\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="BO3Render.cpp">
+      <Filter>Quelldateien\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Quelldateien\ConsoleUI\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Quelldateien\ConsoleUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandFactory.cpp">
+      <Filter>Quelldateien\ConsoleUI\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandClear.cpp">
+      <Filter>Quelldateien\ConsoleUI\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandSet.cpp">
+      <Filter>Quelldateien\ConsoleUI\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownCommand.cpp">
+      <Filter>Quelldateien\ConsoleUI\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Scrollbar.cpp">
+      <Filter>Quelldateien\ConsoleUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorManager.cpp">
+      <Filter>Quelldateien\Render\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Quelldateien\Render\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="CODMath.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="EspManager.cpp">
+      <Filter>Quelldateien\Features\Visuals\Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="NameEsp.cpp">
+      <Filter>Quelldateien\Features\Visuals\Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Quelldateien\Features\Visuals\Esp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CODEngine.h">
+      <Filter>Headerdateien\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Headerdateien\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BO3Engine.h">
+      <Filter>Headerdateien\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.h">
+      <Filter>Headerdateien\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Headerdateien\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Headerdateien\ConsoleUI\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Headerdateien\ConsoleUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BO3Render.h">
+      <Filter>Headerdateien\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandFactory.h">
+      <Filter>Headerdateien\ConsoleUI\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandClear.h">
+      <Filter>Headerdateien\ConsoleUI\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSet.h">
+      <Filter>Headerdateien\ConsoleUI\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownCommand.h">
+      <Filter>Headerdateien\ConsoleUI\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Scrollbar.h">
+      <Filter>Headerdateien\ConsoleUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorManager.h">
+      <Filter>Headerdateien\Render\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Headerdateien\Render\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsHooks.h">
+      <Filter>Headerdateien\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="CODMath.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EspManager.h">
+      <Filter>Headerdateien\Features\Visuals\Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="NameEsp.h">
+      <Filter>Headerdateien\Features\Visuals\Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>Headerdateien\Features\Visuals\Esp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="GameEngineCalls.asm">
+      <Filter>Headerdateien\GameEngine</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

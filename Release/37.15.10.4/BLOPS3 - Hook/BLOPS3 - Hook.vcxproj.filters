@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Hacks">
+      <UniqueIdentifier>{30219cd0-c030-4ad6-a99d-6a56650cacd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Math">
+      <UniqueIdentifier>{df7f8173-d26d-43f2-b8cb-a2d4384f7acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Rendering">
+      <UniqueIdentifier>{94a8f02a-2348-4f83-810a-ffe38fda65de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Others">
+      <UniqueIdentifier>{e4bdfa58-73fd-4a3a-a1cb-728b79ea4bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Hacks\Visuals">
+      <UniqueIdentifier>{1599fc01-2e68-422a-97f9-9baa2aa5afc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Hacks\Aimbot">
+      <UniqueIdentifier>{4b811e14-d308-4024-ab6f-039c4ea5775c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Hacks">
+      <UniqueIdentifier>{02ed6de8-7b73-4425-9d52-a5a4d7aede4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Hacks\Visuals">
+      <UniqueIdentifier>{7462cf92-ac34-4d21-82a5-626dd7cc1b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Hacks\Misc">
+      <UniqueIdentifier>{a155e930-fc61-4d28-a4c5-261ba8c0646b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Hacks\Aimbot">
+      <UniqueIdentifier>{5949a4fc-77e5-4719-8d90-31558dfec6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Math">
+      <UniqueIdentifier>{7f60a3d4-41c6-4da8-beb7-1942a50b4bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Others">
+      <UniqueIdentifier>{a3f5916c-2fa4-4f17-ae26-22ca68a5e254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Rendering">
+      <UniqueIdentifier>{da3b1fb0-c752-4210-8241-eccbcf06471f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Hacks\Misc">
+      <UniqueIdentifier>{e9b8989a-fd32-4e91-9b1f-2da647ea1dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Menu">
+      <UniqueIdentifier>{7e7d9618-a8fb-440c-b959-bab398c81182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Menu">
+      <UniqueIdentifier>{76960261-777d-44d7-b65d-08373975e3e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Quelldateien\Hacks\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Quelldateien\Hacks\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Quelldateien\Hacks\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering.cpp">
+      <Filter>Quelldateien\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugConsole.cpp">
+      <Filter>Quelldateien\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Quelldateien\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Quelldateien\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CODEngine.h">
+      <Filter>Headerdateien\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Headerdateien\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>Headerdateien\Hacks\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Headerdateien\Hacks\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.h">
+      <Filter>Headerdateien\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugConsole.h">
+      <Filter>Headerdateien\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>Headerdateien\Hacks\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Headerdateien\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Headerdateien\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Headerdateien\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
